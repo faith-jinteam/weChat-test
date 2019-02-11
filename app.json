@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d5371b",
+    "navigationBarTitleText": "金益帆_小程序",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "selectedColor":"#d5371b",
+    "list":[
+      {
+        "text":"test1",
+        "pagePath":"pages/index/index"
+      },
+      {
+        "text":"test2",
+        "pagePath": "pages/logs/logs"
+      }
+    ]
+  }
+}
